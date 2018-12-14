@@ -1,9 +1,9 @@
 package local.locadora.config;
 
-
 import local.locadora.controller.ClienteFormatter;
 import local.locadora.controller.FilmeFormatter;
 import org.springframework.format.FormatterRegistry;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

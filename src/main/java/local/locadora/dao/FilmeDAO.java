@@ -6,7 +6,7 @@
 package local.locadora.dao;
 
 import local.locadora.entities.Filme;
-import org.springframework.data.domain.Pageable;
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
